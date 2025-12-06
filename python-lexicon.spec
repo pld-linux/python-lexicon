@@ -2,7 +2,7 @@
 # Conditional build:
 %bcond_without	tests	# unit tests
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-lexicon.spec)
 
 Summary:	Powerful dict subclass(es) with aliasing & attribute access
 Summary(pl.UTF-8):	Funkcjonalne podklasy dict z dostępem przez aliasy i atrybuty
